@@ -5,17 +5,25 @@ body{
 .text-primary{
     color:#fd6e0a;
 }
-.btn-primary{
-    color:white;
-
-    background-color: #fd6e0a;
-    
+.btn-primary {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
 }
+
+    
+
 
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title{
@@ -36,4 +44,22 @@ nav > ul{
 nav li{
     list-style: none;
     margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+/* header related styles */
+.header{
+    background-color: #fff8f3;
+}
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+.banner .profile-pic{
+    
+    width: 500px;
+
 }
