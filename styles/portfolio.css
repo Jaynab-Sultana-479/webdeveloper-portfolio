@@ -6,6 +6,7 @@ body{
     color:#fd6e0a;
 }
 .btn-primary {
+    display: flex;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
@@ -17,7 +18,13 @@ body{
 }
 
     
+.header{
 
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    }
 
 nav{
     display: flex;
@@ -54,12 +61,55 @@ nav a{
     background-color: #fff8f3;
 }
 .banner {
+    padding: 0;
     display: flex;
     align-items: center;
     margin: 0 200px;
+    justify-content: space-between;
 }
 .banner .profile-pic{
     
     width: 500px;
 
+
+}
+.banner-greeting{
+    font-size: 45px;
+    color:#474747;
+    margin-bottom: 0;
+}
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-content{
+     max-width: 500px;
+    
+}
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+.section-title{
+    color:#181818;
+    text-align: center;
+    font-family: Open sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-description {
+    color: var(--dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+
+
+}
+.about{
+    margin: 130px 0;
 }
